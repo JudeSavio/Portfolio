@@ -74,20 +74,20 @@
 
 @media (max-width: 576px) { 
     .about-col-1{
-        margin-top: 10%;
+        margin-top: 5%;
     }
 
     .about-col-1 p{
-        font-size: 4rem;
+        font-size: 2rem;
         font-weight: lighter;
     }
 
     .about-col-1 h1{
-        font-size: 6rem;
+        font-size: 4rem;
     }
 
     .about-col-2{
-        margin-top: 10%;
+        margin-top: 5%;
     }
 }
 
