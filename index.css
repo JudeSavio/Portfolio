@@ -73,8 +73,21 @@
 }
 
 @media (max-width: 576px) { 
-    .About{
-        background-color: violet;
+    .about-col-1{
+        margin-top: 10%;
+    }
+
+    .about-col-1 p{
+        font-size: 4rem;
+        font-weight: lighter;
+    }
+
+    .about-col-1 h1{
+        font-size: 6rem;
+    }
+
+    .about-col-2{
+        margin-top: 10%;
     }
 }
 
