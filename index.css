@@ -1,5 +1,6 @@
 .navbar{
     background-color: #00001f;
+    z-index: 100;
 }
 
 .navbar-brand img{
@@ -23,7 +24,8 @@
 }
 
 .about-col-1{
-    margin-top: 10%;
+    margin-top: 12%;
+    z-index: 100;
 }
 
 .about-col-1 p{
@@ -33,10 +35,12 @@
 
 .about-col-1 h1{
     font-size: 6rem;
+    margin-top: -3%;
 }
 
 .about-col-2{
-    margin-top: 10%;
+    margin-top: 12%;
+    z-index: 100;
 }
 
 .about-col-2 p{
@@ -44,7 +48,7 @@
     padding : 15px;
     color: #00001f;
     border-radius: 10px;
-    width: 90%;
+    width: 100%;
 }
 
 .about-col-2 p em{
@@ -73,6 +77,23 @@
     }
 }
 
+.blob{
+    position: absolute;
+    top: 23%;
+    left: 55%;
+    width: 500px;
+    height: 400px;
+    z-index: 1;
+}
+
+#blobSvg{
+    height: 100%;
+    width: 650px;
+}
+
+
+/* Media Queries for Ipad */
+
 @media all and (min-width:576px) and (max-width: 768px) {
     .about-col-1{
         margin-top: 2%;
@@ -98,6 +119,8 @@
         margin-top:2%;
     }
 }
+
+/* Media Queries for Iphone */
 
 @media all and (min-width:320px) and (max-width: 576px) { 
     .About{
