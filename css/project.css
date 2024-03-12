@@ -1,0 +1,252 @@
+*{
+    margin : 0;
+    padding: 0;
+    font-family: 'Outfit', sans-serif;
+}
+
+/* Nav Bar Section */
+
+.navbar{
+    background-color: #ffffff;
+    z-index: 100;
+    display: fixed;
+    font-size: 20px;
+    height: 10vh;
+    width: 100%;
+}
+
+.navbar-brand h3{
+    font-weight: bold;
+}
+
+.nav-item{
+    font-size: 16.5px;
+    font-weight: light;
+}
+
+.active{
+    color: #274f42;
+}
+
+/* Project Opener */
+.project-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 45vh;
+    width: 100%;
+}
+
+.project-container h1{
+    font-weight: bold;
+    font-size: 50px;
+}
+
+.project-container p{
+    margin-top: 10px;
+    width: 55%;
+    text-align: justify;
+    font-size: 20px;
+}
+
+.project-counter{
+    height: 20vh;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: row;
+}
+
+.project-counter-div{
+    height: 80%;
+    width: 15%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.num{
+    text-align: center;
+    font-weight: bold;
+    font-size: 45px;
+    background: -webkit-linear-gradient(#4286f4 , #373B44);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.counter-text{
+    text-align: center;
+    font-weight: bold;
+    color: black;
+    font-size: 20px;
+    color: rgb(0, 0, 0 , 0.75);
+}
+
+/* Project Showcase Section */
+.project-card{
+    height: 60vh;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.project-card-left{
+    height: 100%;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.project-card-left img{
+    height: 450px;
+    width: 650px;
+}
+
+.project-card-right{
+    height: 100%;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+    flex-direction: column;
+    padding-left: 10px;
+}
+
+.project-info{
+    height: 80%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: left;
+    flex-direction: column;
+}
+
+.project-specs{
+    height: 20%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+.tech-stack{
+    height: 100%;
+    width: 50%;
+}
+
+.tech-stack h5{
+    font-weight: bold;
+}
+
+.tech-stack span{
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.like-counter{
+    height: 100%;
+    width: 50%;
+    display: flex;
+    justify-content: left;
+    align-items: flex-start;
+}
+
+.like-counter i{
+    font-size: 25px;
+}
+
+.like-counter i:hover{
+    cursor: pointer;
+}
+
+.like-counter i:active{
+    transform: translateY(5px);
+}
+
+
+.project-card-right h3{
+    font-weight: bold;
+    font-size: 45px;
+    color: black;
+}
+
+.project-card-right span i{
+    font-size: 25px;
+}
+
+.project-card-right p{
+    width: 70%;
+    font-size: 20px;
+}
+
+/* Footer Container */
+.footer-container{
+    height: 10vh;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+.footer-copyright-container{
+    width: 40%;
+    height: 100%;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+.footer-copyright-container p{
+    font-family: sans-serif;
+    margin-top: 5px;
+    margin-left: 70px;
+}
+
+.footer-contact-container{
+    height: 100%;
+    width: 60%;
+    display: flex;
+    flex-direction: row;
+}
+
+.footer-contact-email{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-contact-email h6{
+    font-weight: bold;
+    margin-top: 15px;
+}
+
+.footer-contact-email p{
+    margin-top: -8px;
+}
+
+.footer-contact-socials{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;    
+}
+
+.footer-contact-socials h6{
+    font-weight: bold;
+}
+
+.footer-contact-socials-icons i{
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 20px;
+}

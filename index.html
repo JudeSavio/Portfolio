@@ -1,0 +1,133 @@
+<html>
+    <head>
+        <!--media queries-->
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!--page title-->
+        <title>Jude Savio</title> 
+        <!--Google Fonts-->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap" rel="stylesheet">
+        <!-- Font Awesome Kit -->
+        <script src="https://kit.fontawesome.com/6d2d9357ff.js" crossorigin="anonymous"></script>
+        <!-- Linking Bootstrap -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+        <!--Typed.js for Intro section-->
+        <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+        <!-- Adding favicon-->
+        <link rel="icon" href="./src/img/icon.ico">
+        <!-- Linking custom CSS file -->
+        <link rel="stylesheet" href="./css/index.css">
+    </head>
+    <body>
+
+        <!-- NavBar Component-->
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <div class="container" style="color: #00001f;">
+                <span class="navbar-brand"><h3>Jude Savio.</h3></span>
+                <button class="navbar-toggler ms-auto" type="button" data-bs-toggle="collapse" data-bs-target="#ToggleMenu" aria-controls="ToggleMenu" aria-expanded="false" aria-label="toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="navbar-collapse collapse" id="ToggleMenu">
+                    <ul class="navbar-nav ms-auto" style="text-align: right;">
+                        <li class="nav-item">
+                            <a href="#" class="nav-link active">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="./views/project.html" class="nav-link">Projects</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#contact" class="nav-link">Blog</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#contact" class="nav-link">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <!-- About Section -->
+        <section class="about">
+            <div class="about-container">
+                <div class="about-left-portion">
+                    <div class="about-card">
+                        <div class="about-card-picture">
+                            <img src="./src/img/profile-pic.png" alt="profile picture">
+                        </div>
+                        <div class="about-card-title">
+                            <h1>Jude Savio</h1>
+                        </div>
+                        <div class="about-card-tagline">
+                            <p>An Active Problem Solver Looking To Break Into The Tech Industry.</p>
+                        </div>
+                        <div class="about-card-socials">
+                            <a href="https://www.linkedin.com/in/jude-savio/" target="_blank"><i class="fa-brands fa-linkedin" style="color: #000000;"></i></a>
+                            <a href="https://github.com/JudeSavio" target="_blank"><i class="fa-brands fa-github" style="color: #000000;"></i></a>
+                            <a href="https://www.facebook.com/jude.savio.7" target="_blank"><i class="fa-brands fa-facebook" style="color: #000000;"></i></a>
+                            <a href="https://www.tiktok.com/@reconabyss" target="_blank"><i class="fa-brands fa-tiktok" style="color: #000000;"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-right-portion">
+                    <div class="about-howdy-container">
+                        <h1>Howdy!</h1>
+                    </div>
+                    <div class="about-typed-intro-container">
+                        <p>My name's Jude and I am a <span style="font-weight: bold;" class="type"></span> </p>
+                        <script> 
+                            var typed = new Typed('.type', {
+                            strings: [' CompSci Grad.', ' Software Developer.', 'Creator @ Encephalon.', 'Problem Solver.', 'Creative.','Content Creator ⛩️'],
+                            smartBackspace: true,
+                            typeSpeed: 90,
+                            backSpeed: 90,
+                            loop: true, 
+                            },
+                            );
+                        </script>
+                    </div>
+                    <div class="about-btn-container">
+                        <button>Resume</button>
+                        <button>Projects</button>
+                        <button>Contact</button>
+                    </div>
+                    <div class="about-text-container">
+                        <p>
+                            Hey, I'm Jude Savio, a recent Computer Science grad specialized in Machine Learning and Big Data Analytics. 
+                            With two years at Kaar Technologies, I've led projects in Robotic Process Automation and ML, earning accolades for innovation. 
+                            I began coding with projects like a talking "Mirror" using Alexa's API. 
+                            I also developed "Encephalon," revolutionizing campus mental health access with ML and intuitive design. Energetic and proactive, I'm keen to bring my diverse skills to your team. 
+                            Let's connect and make things happen!
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Footer Section -->
+        <footer>
+            <div class="footer-container">
+                <div class="footer-copyright-container">
+                    <p>© 2024 by Jude Savio</p>
+                </div>
+                <div class="footer-contact-container">
+                    <div class="footer-contact-email">
+                        <h6>Write</h6>
+                        <p>info@mysite.com</p>
+                    </div>
+                    <div class="footer-contact-socials">
+                        <h6>Follow Me</h6>
+                        <div class="footer-contact-socials-icons">
+                            <a href="https://www.linkedin.com/in/jude-savio/" target="_blank"><i class="fa-brands fa-linkedin" style="color: #000000;"></i></a>
+                            <a href="https://github.com/JudeSavio" target="_blank"><i class="fa-brands fa-github" style="color: #000000;"></i></a>
+                            <a href="https://www.facebook.com/jude.savio.7" target="_blank"><i class="fa-brands fa-facebook" style="color: #000000;"></i></a>
+                            <a href="https://www.tiktok.com/@reconabyss" target="_blank"><i class="fa-brands fa-tiktok" style="color: #000000;"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+    </body>
+</html>

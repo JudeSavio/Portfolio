@@ -1,0 +1,231 @@
+<html>
+    <head>
+        <!--media queries-->
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!--page title-->
+        <title>Jude Savio</title> 
+        <!--Google Fonts-->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap" rel="stylesheet">
+        <!-- Font Awesome Kit -->
+        <script src="https://kit.fontawesome.com/6d2d9357ff.js" crossorigin="anonymous"></script>
+        <!-- Linking Bootstrap -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+        <!--Typed.js for Intro section-->
+        <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+        <!-- Adding favicon-->
+        <link rel="icon" href="../src/img/icon.ico">
+        <!-- Linking custom CSS file -->
+        <link rel="stylesheet" href="../css/project.css">
+    </head>
+    <body>
+
+        <!-- NavBar Component-->
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <div class="container" style="color: #00001f;">
+                <span class="navbar-brand"><h3>Jude Savio.</h3></span>
+                <button class="navbar-toggler ms-auto" type="button" data-bs-toggle="collapse" data-bs-target="#ToggleMenu" aria-controls="ToggleMenu" aria-expanded="false" aria-label="toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="navbar-collapse collapse" id="ToggleMenu">
+                    <ul class="navbar-nav ms-auto" style="text-align: right;">
+                        <li class="nav-item">
+                            <a href="../index.html" class="nav-link">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="./project.html" class="nav-link active">Projects</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#contact" class="nav-link">Blog</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#contact" class="nav-link">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <section id="project-opener">
+
+            <div class="project-container">
+                <h1>Welcome To My World</h1>
+                <p>
+                    Someone's Curious 👀 Thanks for stumbling by, I dabble in projects on a month-to-month basis. 
+                    Creating stuff is where my heart lies and that's how I pick up new skills on the go as well on the job.
+                    Here's a showcase of a few of my passion projects that I am proud of flaunting. There are few more in the depth of my Git's underbelly.
+                    I'd love to hear about what you think of them as well ❤️ so don't be shy and drop a like next to project that caught your eye!
+                    You can also reach me through the contact form.
+                </p>
+            </div>
+
+            <div class="project-counter">
+
+                <div class="project-counter-div">
+                    <h3 class="num" data-val="8">0</h3>
+                    <p class="counter-text">Projects</p>
+                </div>
+
+                <div class="project-counter-div">
+                    <h3 class="num" data-val="21">0</h3>
+                    <p class="counter-text">Repositories</p>
+                </div>
+
+                <div class="project-counter-div">
+                    <h3 class="num" data-val="16">0</h3>
+                    <p class="counter-text">Certifications</p>
+                </div>
+            </div>
+
+        </section>
+
+        <section id="project-showcase">
+            <div class="project-cards-container">
+                <!-- First Project Card-->
+                <div class="project-card">
+                    <div class="project-card-left">
+                        <img src="../src/img/Encephalon.png" alt="meko">
+                    </div>
+                    <div class="project-card-right">
+                        <div class="project-info">
+                            <h3>1. Encephalon &nbsp;<span><a href="https://github.com/JudeSavio/Encephalon" target="_blank"><i class="fa-brands fa-github" style="color: #000000;"></i></a></span></h3>
+                            <p>
+                                Encephalon is a virtual consultation engine developed with the motivation to act as a first form of contact for students who feel like they are under too much pressure, stress, anxiety, or feel like their mental health is being neglected.
+                            </p>
+                        </div>
+                        <div class="project-specs">
+                            <div class="tech-stack">
+                                <h5>
+                                    <span>
+                                        <i class="fa-brands fa-html5" style="color: #000000;"></i>
+                                        <i class="fa-brands fa-bootstrap" style="color: #000000;"></i>
+                                        <i class="fa-brands fa-square-js" style="color: #000000;"></i>
+                                        <i class="fa-brands fa-node-js" style="color: #000000;"></i>
+                                        <i class="fa-brands fa-python" style="color: #000000;"></i>
+                                        <i class="fa-solid fa-database" style="color: #000000;"></i>
+                                    </span>
+                                </h5>
+                            </div>
+                            <div class="like-counter">
+                                <i id="heart" class="fa-solid fa-heart" style="color: #000000;"></i>
+                                <script>
+                                    const heartIcon = document.getElementById("heart");
+                                    heartIcon.addEventListener("click", function() {
+                                    console.log('event enabled')    
+                                    this.style.color = "red"; // Toggles a class named "red"
+                                    });
+                                </script>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!--Second Project Card-->
+                <div class="project-card">
+                    <div class="project-card-left">
+                        <img src="../src/img/Meko.png" alt="meko">
+                    </div>
+                    <div class="project-card-right">
+                        <div class="project-info">
+                            <h3>2. MEKO &nbsp;<span><a href="https://github.com/JudeSavio/Meko" target="_blank"><i class="fa-brands fa-github" style="color: #000000;"></i></a></span></h3>
+                            <p>
+                                MEKO serves to be a mockup for an NFT marketplace made entirely of guess what? CATS!!!
+                                Chekout the video for the NFT on the website if you like cats, I can assure you, you're in for a treat!
+                            </p>
+                        </div>
+                        <div class="project-specs">
+                            <div class="tech-stack">
+                                <h5>
+                                    <span>
+                                        <i class="fa-brands fa-html5" style="color: #000000;"></i>
+                                        <i class="fa-brands fa-bootstrap" style="color: #000000;"></i>
+                                        <i class="fa-brands fa-square-js" style="color: #000000;"></i>
+                                    </span>
+                                </h5>
+                            </div>
+                            <div class="like-counter">
+                                <i id="heart-1" class="fa-solid fa-heart" style="color: #000000;"></i>
+                                <script>
+                                    const heartIcon2 = document.getElementById("heart-1");
+                                    heartIcon2.addEventListener("click", function() {
+                                    console.log('event enabled')    
+                                    this.style.color = "red"; // Toggles a class named "red"
+                                    });
+                                </script>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!--Third Project Card-->
+                <div class="project-card">
+                    <div class="project-card-left">
+                        <img src="../src/img/streakometer.png" alt="meko">
+                    </div>
+                    <div class="project-card-right">
+                        <div class="project-info">
+                            <h3>3. Streak-0-Meter &nbsp;<span><a href="https://github.com/JudeSavio/Streak-o-Meter" target="_blank"><i class="fa-brands fa-github" style="color: #000000;"></i></a></span></h3>
+                            <p>
+                                Streak-0-Meter is a visually pleasing streak tracker app to keep track of your daily goals.
+                                It has 5 beautiful gradients to choose from and lets you update the counter once a day. 
+                            </p>
+                        </div>
+                        <div class="project-specs">
+                            <div class="tech-stack">
+                                <h5>
+                                    <span>
+                                        <i class="fa-brands fa-html5" style="color: #000000;"></i>
+                                        <i class="fa-brands fa-bootstrap" style="color: #000000;"></i>
+                                        <i class="fa-brands fa-square-js" style="color: #000000;"></i>
+                                        <i class="fa-solid fa-database" style="color: #000000;"></i>
+                                    </span>
+                                </h5>
+                            </div>
+                            <div class="like-counter">
+                                <i id="heart-2" class="fa-solid fa-heart" style="color: #000000;"></i>
+                                <script>
+                                    const heartIcon3 = document.getElementById("heart-2");
+                                    heartIcon3.addEventListener("click", function() {
+                                    console.log('event enabled')    
+                                    this.style.color = "red"; // Toggles a class named "red"
+                                    });
+                                </script>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+        <!-- Footer Section -->
+        <footer>
+            <div class="footer-container">
+                <div class="footer-copyright-container">
+                    <p>© 2024 by Jude Savio</p>
+                </div>
+                <div class="footer-contact-container">
+                    <div class="footer-contact-email">
+                        <h6>Write</h6>
+                        <p>info@mysite.com</p>
+                    </div>
+                    <div class="footer-contact-socials">
+                        <h6>Follow Me</h6>
+                        <div class="footer-contact-socials-icons">
+                            <a href="https://www.linkedin.com/in/jude-savio/" target="_blank"><i class="fa-brands fa-linkedin" style="color: #000000;"></i></a>
+                            <a href="https://github.com/JudeSavio" target="_blank"><i class="fa-brands fa-github" style="color: #000000;"></i></a>
+                            <a href="https://www.facebook.com/jude.savio.7" target="_blank"><i class="fa-brands fa-facebook" style="color: #000000;"></i></a>
+                            <a href="https://www.tiktok.com/@reconabyss" target="_blank"><i class="fa-brands fa-tiktok" style="color: #000000;"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+    </body>
+
+    <!-- counter.js files -->
+    <script src="../js/counter.js"></script>
+</html>

@@ -1,0 +1,254 @@
+*{
+    margin : 0;
+    padding: 0;
+    font-family: 'Outfit', sans-serif;
+}
+
+/* Nav Bar Section */
+
+.navbar{
+    background-color: #ffffff;
+    z-index: 100;
+    display: fixed;
+    font-size: 20px;
+    height: 10vh;
+    width: 100%;
+}
+
+.navbar-brand h3{
+    font-weight: bold;
+}
+
+.nav-item{
+    font-size: 16.5px;
+    font-weight: light;
+}
+
+.active{
+    color: #274f42;
+}
+
+/* About Section */
+.about-container{
+    height: 80vh;
+    width: 100%;
+    display: flex;
+    flex-direction: row ;
+}
+
+.about-left-portion{
+    height: 100%;
+    width: 40%;
+    background-color: #373B44;
+    background:linear-gradient(to left,#4286f4, #373B44) right;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    position: relative;
+}
+
+.about-card{
+    height: 65vh;
+    width: 70%;
+    background-color: white;
+    position: absolute;
+    top: 50%;
+    right: -50%; 
+    transform: translate(-50%, -50%); 
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.2);
+    border-radius : 10px;
+}
+
+.about-card-picture{
+    height: 50%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.about-card-picture img{
+    height: 230px;
+    width: 230px;
+    margin-top: 30px;
+}
+
+.about-card-title{
+    height: 25%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.about-card-title h1{
+    margin: 0px;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 40px;
+    border-bottom: 1px solid #274f42;
+    border-width: 1.5px;
+}
+
+.about-card-tagline{
+    height: 15%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.about-card-tagline p{
+    font-weight: lighter;
+    font-size: 16px;
+    color: rgba(0, 0, 0, 0.6);
+    text-align: center;
+    margin-bottom: 50px;
+    padding: 5px;
+}
+
+.about-card-socials{
+    height: 10%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.about-card-socials i{
+    font-size: 25px;
+    margin: 0px 10px;
+}
+
+.about-right-portion{
+    height: 100%;
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: left;
+    padding-left: 115px;
+}
+
+.about-howdy-container h1{
+    font-weight: bold;
+    font-size: 65px;
+}
+
+.about-typed-intro-container p{
+    font-size: 30px;
+    font-weight: 100;
+    margin-top: 5px;
+    color: rgba(0, 0, 0, 0.75);
+}
+
+.about-btn-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+}
+
+.about-btn-container button{
+    margin-right:20px ;
+    width: 120px;
+    border-radius: 25px;
+    padding: 4px;
+    border: 0px;
+    background-color: #4286f4;
+    color: white;
+    transition: 0.3s;
+}
+
+.about-btn-container :nth-child(2){
+    border: 1px solid #000;
+    background-color: white;
+    color: black;
+    transition: 0.3s;
+}
+
+.about-btn-container button:hover{
+    background-color: white;
+    border: 1px solid #274f42;
+    color: #000;
+}
+
+.about-btn-container :nth-child(2):hover{
+    background-color: #274f42;
+    color: white;
+}
+
+.about-text-container{
+    text-align: justify;
+    width: 80%;
+}
+
+.about-text-container p{
+    margin-top: 15px;
+}
+
+/* Footer Container */
+.footer-container{
+    height: 10vh;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+.footer-copyright-container{
+    width: 40%;
+    height: 100%;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+.footer-copyright-container p{
+    font-family: sans-serif;
+    margin-top: 5px;
+    margin-left: 70px;
+}
+
+.footer-contact-container{
+    height: 100%;
+    width: 60%;
+    display: flex;
+    flex-direction: row;
+}
+
+.footer-contact-email{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-contact-email h6{
+    font-weight: bold;
+    margin-top: 15px;
+}
+
+.footer-contact-email p{
+    margin-top: -8px;
+}
+
+
+.footer-contact-socials{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;    
+}
+
+.footer-contact-socials h6{
+    font-weight: bold;
+}
+
+.footer-contact-socials-icons i{
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 20px;
+}
