@@ -159,16 +159,6 @@
     transition: 0.3s;
 }
 
-.about-btn-container button a{
-    text-decoration: none;
-    color: black;
-}
-
-.about-btn-container button a:focus{
-    text-decoration: none;
-    color: white;
-}
-
 .about-btn-container :nth-child(2){
     border: 1px solid #000;
     background-color: white;
