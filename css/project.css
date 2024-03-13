@@ -232,6 +232,11 @@
     margin-top: -8px;
 }
 
+.footer-contact-email p a{
+    text-decoration: none;
+    color: black;
+}
+
 .footer-contact-socials{
     width: 50%;
     height: 100%;
