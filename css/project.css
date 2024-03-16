@@ -256,3 +256,89 @@
     margin-right: 10px;
     font-size: 20px;
 }
+
+/* Phone Responsive Query */
+@media only screen and (max-width: 400px) {
+    .navbar{
+        height: 8vh;
+    }
+
+    .counter-text{
+        font-size: 17px;
+    }
+
+    .project-container{
+        height: 70vh;
+    }
+
+    .project-container h1{
+        font-size: 35px;
+    }
+
+    .project-container p{
+        font-size: 17px;
+        width: 80%;
+    }
+
+    .project-counter-div{
+        justify-content: space-between;
+    }
+
+    .project-card{
+        flex-direction: column;
+        height: 90vh;
+    }
+
+    .project-card-left img{
+        height: 250px;
+        width: 400px;
+    }
+
+    .project-card-left video{
+        height: 250;
+        width: 360;
+    }    
+
+    .project-card-right{
+        width: 100%;
+        padding-left : 10px
+    }
+
+    .project-info h3{
+        font-size: 30px;
+    }
+
+    .project-card-right p{
+        width: 90%;
+        font-size: 16px;
+    }
+
+    /* Footer Container */
+
+    .footer-copyright-container{
+        display: none;
+    }
+
+    .footer-contact-container{
+        width: 100%;
+    }
+
+    .footer-contact-email{
+        display: none;
+    }
+
+    .footer-contact-socials{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+
+    .footer-contact-socials h6{
+        font-size: 21.5px;
+    }
+
+    .footer-contact-socials-icons i{
+        font-size: 20px;
+    }
+}
