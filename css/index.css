@@ -265,28 +265,29 @@
     
     .about-container{
         flex-direction: column;
-        height: 110vh;
+        height: 180vh;
     }
 
     .about-left-portion{
-        height: 70vh;
+        height: 90vh;
         width: 100%;
     }
 
     .about-card {
-        height: 50vh;
-    }
-
-    .about-card{
         position: absolute;
         top: 50%;
         left: 50%;
         width: 90%;
     }
 
+    .about-card-picture img{
+        height: 200px;
+        width: 200px;
+    }
+
     .about-right-portion{
         width: 100%;
-        height: 70vh;
+        height: 90vh;
         padding-left: 10px;
     }
 
