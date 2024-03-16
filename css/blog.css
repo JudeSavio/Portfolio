@@ -1,0 +1,145 @@
+*{
+    margin : 0;
+    padding: 0;
+    font-family: 'Outfit', sans-serif;
+}
+
+/* Nav Bar Section */
+
+.navbar{
+    background-color: #ffffff;
+    z-index: 100;
+    display: fixed;
+    font-size: 20px;
+    height: 10vh;
+    width: 100%;
+}
+
+.navbar-brand h3{
+    font-weight: bold;
+}
+
+.nav-item{
+    font-size: 16.5px;
+    font-weight: light;
+}
+
+.active{
+    color: #274f42;
+}
+
+/* Blog Container Section */
+.blog-container{
+    height: 80vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Footer Container */
+.footer-container{
+    height: 10vh;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+.footer-copyright-container{
+    width: 40%;
+    height: 100%;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+.footer-copyright-container p{
+    font-family: sans-serif;
+    margin-top: 5px;
+    margin-left: 70px;
+}
+
+.footer-contact-container{
+    height: 100%;
+    width: 60%;
+    display: flex;
+    flex-direction: row;
+}
+
+.footer-contact-email{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-contact-email h6{
+    font-weight: bold;
+    margin-top: 15px;
+}
+
+.footer-contact-email p{
+    margin-top: -8px;
+}
+
+.footer-contact-email p a{
+    text-decoration: none;
+    color: black;
+}
+
+.footer-contact-socials{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;    
+}
+
+.footer-contact-socials h6{
+    font-weight: bold;
+}
+
+.footer-contact-socials-icons i{
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 20px;
+}
+
+/* Phone Responsive Query */
+@media only screen and (max-width: 430px) {
+    .navbar{
+        height: 8vh;
+    }
+
+    /* Footer Container */
+    .footer-copyright-container{
+        display: none;
+    }
+
+    .footer-contact-container{
+        width: 100%;
+    }
+
+    .footer-contact-email{
+        display: none;
+    }
+
+    .footer-contact-socials{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+
+    .footer-contact-socials h6{
+        font-size: 21.5px;
+    }
+
+    .footer-contact-socials-icons i{
+        font-size: 20px;
+    }
+    
+}
