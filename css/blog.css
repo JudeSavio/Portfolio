@@ -114,6 +114,11 @@
         height: 8vh;
     }
 
+    .blog-container p{
+        width: 90%;
+        text-align: justify;
+    }
+
     /* Footer Container */
     .footer-copyright-container{
         display: none;
@@ -141,5 +146,5 @@
     .footer-contact-socials-icons i{
         font-size: 20px;
     }
-    
+
 }
