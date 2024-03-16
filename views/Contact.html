@@ -18,7 +18,7 @@
         <!-- Adding favicon-->
         <link rel="icon" href="../src/img/icon.ico">
         <!-- Linking custom CSS file -->
-        <link rel="stylesheet" href="../css/blog.css">
+        <link rel="stylesheet" href="../css/contact.css">
     </head>
     <body>
 
@@ -38,20 +38,50 @@
                             <a href="./project.html" class="nav-link">Projects</a>
                         </li>
                         <li class="nav-item">
-                            <a href="./Blog.html" class="nav-link active">Blog</a>
+                            <a href="./Blog.html" class="nav-link">Blog</a>
                         </li>
                         <li class="nav-item">
-                            <a href="./Contact.html" class="nav-link">Contact</a>
+                            <a href="./Contact.html" class="nav-link active">Contact</a>
                         </li>
                     </ul>
                 </div>
             </div>
         </nav>
 
-        <section class="blog">
-            <div class="blog-container">
-                <p>I haven't published a poper blog before but I am currently drafting my first one. So stay tuned!</p>
+        <section class="contact">
+
+            <div class="contact-container">
+                <div class="contact-heading">
+                    <div class="contact-decoration-orb"></div>
+                    <h2>Let's Chat!</h2>
+                </div>
+                <div class="contact-container-form">
+                    <form action="https://formspree.io/f/mvoebolv" method="POST">
+                        <label for="fname">
+                            First Name <span>*</span>
+                            <input type="text" name="fname" required><br>
+                        </label>
+                        <label for="lname">
+                            Last Name <span>*</span>
+                            <input type="text" name="lname" required><br>
+                        </label>
+                        <label for="email">
+                            Email <span>*</span>
+                            <input type="email" name="email" required><br>
+                        </label>
+                        <label for="subject">
+                            Subject 
+                            <input type="text" name="subject">
+                        </label>
+                        <label for="message">
+                            Message <span>*</span>
+                            <textarea name="message" required></textarea><br>
+                        </label>
+                        <button type="submit">Send</button>
+                    </form>
+                </div>
             </div>
+
         </section>
 
         <!-- Footer Section -->
@@ -63,7 +93,7 @@
                 <div class="footer-contact-container">
                     <div class="footer-contact-email">
                         <h6>Write</h6>
-                        <p><a href="mailto:judesavio3197@gmail.com">judesavio3197@gmail.com</a></p>
+                        <p>judesavio3197@gmail.com</p>
                     </div>
                     <div class="footer-contact-socials">
                         <h6>Follow Me</h6>
@@ -77,6 +107,6 @@
                 </div>
             </div>
         </footer>
-        
+
     </body>
 </html>
