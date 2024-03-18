@@ -263,6 +263,26 @@
         height: 8vh;
     }
 
+    .navbar.expanded {
+    background-color: white;
+    }
+
+    .navbar.expanded .navbar-collapse {
+    background-color: white;
+    }
+
+    .navbar.expanded .navbar-toggler-icon{
+    color: black;
+    }
+
+    .navbar.expanded h2{
+    color: black;
+    }
+
+    .navbar.expanded #navbarToggle>ul>li>a{
+    color: black;
+    }
+
     .counter-text{
         font-size: 17px;
     }
